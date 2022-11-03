@@ -80,7 +80,7 @@ for file in files:
                                            int((current_date_string[2]))),
                     }
                     
-   schedule = '@daily'
+   schedule = '@once'
 
    globals()[dag_id] = create_dag(dag_id,
                                   schedule,
